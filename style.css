@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+
+.backgroundimage {
+    background-image: url(assets/img/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
