@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
 }
-
+/*------------------------Memory Bay Title-------------------------*/
 .title {
     font-family: 'sarina', cursive;
     text-align: center;
@@ -19,7 +25,7 @@ body {
     width: 100%;
     height: auto;
 }
-
+/*------------------------Level buttons-------------------------*/
 .buttons {
     text-align: center;
     font-size: 0vw;
@@ -30,3 +36,33 @@ body {
 .btn {
     margin: 1vw;
     }
+
+
+/*------------------------MEMORY GAME------------------------- */
+img {
+    width: 100px;
+}
+
+.memory-bay {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 25%;
+    height: 33.33%;
+    margin: 5px;
+    position: relative;
+}
+
+.cardfront,
+.cardback {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+}
