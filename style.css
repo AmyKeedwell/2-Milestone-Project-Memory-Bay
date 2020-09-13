@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
 body {
     height: 100vh;
+}
+
+.title {
+    font-family: 'sarina', cursive;
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .backgroundimage {
