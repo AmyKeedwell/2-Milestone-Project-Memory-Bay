@@ -10,7 +10,6 @@
 body {
     height: 100vh;
     display: flex;
-    background-color: blue;
 }
 /*------------------------Memory Bay Title-------------------------*/
 .title {
@@ -18,10 +17,15 @@ body {
     text-align: center;
     font-size: 10vw;
     color: white;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.main-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .backgroundimage {
@@ -42,11 +46,16 @@ body {
     margin: 1vw;
     }
 
+/*------------------------MEMORY GAME LEVEL EASY------------------------- */
 
-/*------------------------MEMORY GAME------------------------- */
+/*------------------------MEMORY GAME LEVEL MEDIUM------------------------- */
+.medium {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-
-.memory-bay {
+.memory-bay-medium {
     width: 640px;
     height: 640px;
     margin: auto;
@@ -55,7 +64,7 @@ body {
 }
 
 
-.cards {
+.cards-medium {
     width: calc(25% - 10px);
     height: calc(33.33% - 10px);
     position: relative;
@@ -63,14 +72,14 @@ body {
     transform: scale(1);
 }
 
-.cards:active {
+.cards-medium:active {
     transform: scale(.97);
     transition: transform .2s;
 }
     
 
-.cardfront,
-.cardback {
+.cardfront-medium,
+.cardback-medium {
     width: 100%;
     height: 100%;
     padding: 2x;
@@ -78,4 +87,4 @@ body {
     position: absolute;
 }
 
-    
+/*------------------------MEMORY GAME LEVEL HARD------------------------- */
