@@ -89,13 +89,18 @@ body {
     padding: 2x;
     border-radius: 5px;
     position: absolute;
+    backface-visibility: hidden;
+}
+
+.cardfront-medium {
+    transform: rotateY(180deg);
+}
+
+.cards-medium.flip {
+    transform: rotateY(180deg);
 }
 
 /*------------------------MEMORY GAME LEVEL HARD------------------------- */
 
 
 /*------------------------JS STYLING------------------------- */
-
-.cards-medium.flip {
-    transform: rotateY(180deg);
-}
