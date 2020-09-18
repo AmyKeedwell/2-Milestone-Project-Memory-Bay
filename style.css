@@ -62,6 +62,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    perspective: 1000px;
 }
 
 
@@ -71,6 +72,8 @@ body {
     position: relative;
     margin: 5px;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform.5s;
 }
 
 .cards-medium:active {
@@ -89,3 +92,10 @@ body {
 }
 
 /*------------------------MEMORY GAME LEVEL HARD------------------------- */
+
+
+/*------------------------JS STYLING------------------------- */
+
+.cards-medium.flip {
+    transform: rotateY(180deg);
+}
