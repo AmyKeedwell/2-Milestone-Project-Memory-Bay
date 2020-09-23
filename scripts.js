@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.cards-medium');
+const cards = document.querySelectorAll('.cards');
 
 let hasFlippedCard = false;
 let firstCard, secondCard;

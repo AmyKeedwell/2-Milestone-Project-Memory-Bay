@@ -49,13 +49,13 @@ body {
 /*------------------------MEMORY GAME LEVEL EASY------------------------- */
 
 /*------------------------MEMORY GAME LEVEL MEDIUM------------------------- */
-.medium {
+.card-container {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.memory-bay-medium {
+.memory-bay {
     width: 640px;
     height: 640px;
     margin: auto;
@@ -66,7 +66,7 @@ body {
 }
 
 
-.cards-medium {
+.cards {
     width: calc(25% - 10px);
     height: calc(33.33% - 10px);
     position: relative;
@@ -76,27 +76,28 @@ body {
     transition: transform.5s;
 }
 
-.cards-medium:active {
+.cards:active {
     transform: scale(.97);
     transition: transform .2s;
 }
     
 
-.cardfront-medium,
-.cardback-medium {
+.cardfront,
+.cardback {
     width: 100%;
     height: 100%;
     padding: 2x;
     border-radius: 5px;
     position: absolute;
     backface-visibility: hidden;
+    border: solid black 1px;
 }
 
-.cardfront-medium {
+.cardfront {
     transform: rotateY(180deg);
 }
 
-.cards-medium.flip {
+.cards.flip {
     transform: rotateY(180deg);
 }
 
