@@ -20,7 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    margin-bottom: 60px;
 }
 
 .main-header {
@@ -63,6 +64,27 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     perspective: 1000px;
+}
+
+@media only screen and (max-width: 700px) {
+  .memory-bay {
+    width: 540px;
+    height: 540px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .memory-bay {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .memory-bay {
+    width: 340px;
+    height: 340px;
+  }
 }
 
 
