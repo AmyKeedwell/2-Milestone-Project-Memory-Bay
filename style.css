@@ -11,6 +11,22 @@ body {
     height: 100vh;
     display: flex;
 }
+
+/*------------------------Home Page-------------------------*/
+
+.title-homepage {
+    font-family: 'sarina', cursive;
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    margin-bottom: 60px;
+}
+
+.start-game {
+    width: 150px;
+    text-align: center;
+}
 /*------------------------Memory Bay Title-------------------------*/
 .title {
     font-family: 'sarina', cursive;
