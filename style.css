@@ -15,6 +15,13 @@ body {
     height: auto;
 }
     
+.titlecenter {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 30vh;
+}
 
 .title-homepage {
     font-family: 'sarina', cursive;
@@ -24,13 +31,18 @@ body {
     text-align: center;
 }
 
+.game-button{
+    position: relative
+}
+
 .start-game {
-    width: 650px;
+    width: 50vw;
     text-align: center;
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 5vw;
 }
+
 .game-button a {
     text-decoration: none;
     color: black;
