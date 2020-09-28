@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 body {
     height: 100vh;
@@ -13,30 +8,33 @@ body {
 }
 
 /*------------------------Home Page-------------------------*/
+.backgroundimage {
+    background-image: url(assets/img/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+    
 
 .title-homepage {
     font-family: 'sarina', cursive;
     font-size: 10vw;
     color: white;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 8%;
+    text-align: center;
 }
 
 .start-game {
-    width: 150px;
+    width: 350px;
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 40%;
-    font-family: 'Signika', sans-serif;
+    left: 35%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
 }
 
-.btn {
-    margin-left: 40%;
-    margin: 0;
-}
+
 
 /*------------------------Memory Bay Title-------------------------*/
 .title {
