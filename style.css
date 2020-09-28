@@ -25,13 +25,16 @@ body {
 }
 
 .start-game {
-    width: 350px;
+    width: 650px;
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 35%;
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
+    font-size: 60px;
+}
+.game-button a {
+    text-decoration: none;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 
