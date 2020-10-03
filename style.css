@@ -1,26 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-
-body {
+/*body {
     height: 100vh;
     display: flex;
+}*/
+
+html, body {
+    height: 100%;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
 /*------------------------Home Page-------------------------*/
-.backgroundimage {
+
+.backgroundimage{
+    background-image: url(assets/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*.backgroundimage {
     background-image: url(assets/img/background.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
-}
+}*/
     
 .titlecenter {
     position: relative;
@@ -166,6 +175,7 @@ body, html {
     top: 30%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    font-family: 'Kaushan Script', cursive;
 }
 
 .btn-4{
@@ -174,6 +184,8 @@ body, html {
     color: black;
     overflow: hidden;
     background-color: rgba(150, 240, 243, 0.747);
+    width: 150px;
+    font-size: 20px;
 }
 
 .btn{
