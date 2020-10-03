@@ -71,4 +71,5 @@ var countdown = setInterval(function(){
     (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
     document.getElementById("countdown").textContent = seconds;
     if (seconds <= 0) clearInterval(countdown);
+     $("#myModal").modal();
 },1000);

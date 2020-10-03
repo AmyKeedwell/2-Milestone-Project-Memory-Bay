@@ -70,7 +70,8 @@ body {
     flex-direction: column;
     justify-content: center;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    margin-bottom: 60px;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
 }
 
 .main-header {
@@ -83,6 +84,14 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+}
+
+
+.countdown {
+    text-align: center;
+    padding-bottom: 5vh;
+    font-size: 3vh;
+    font-family: 'Kaushan Script', cursive;
 }
 
 /*------------------------MEMORY GAME ------------------------- */
