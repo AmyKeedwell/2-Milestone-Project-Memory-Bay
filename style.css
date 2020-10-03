@@ -85,9 +85,7 @@ body {
     margin: 1vw;
     }
 
-/*------------------------MEMORY GAME LEVEL EASY------------------------- */
-
-/*------------------------MEMORY GAME LEVEL MEDIUM------------------------- */
+/*------------------------MEMORY GAME ------------------------- */
 .card-container {
     height: 100%;
     display: flex;
@@ -141,7 +139,6 @@ body {
     transition: transform .2s;
 }
     
-
 .cardfront,
 .cardback {
     width: 100%;
@@ -161,7 +158,7 @@ body {
     transform: rotateY(180deg);
 }
 
-/*------------------------MEMORY GAME LEVEL HARD------------------------- */
-
-
+.play-again{
+    text-align: center;
+}
 /*------------------------JS STYLING------------------------- */
