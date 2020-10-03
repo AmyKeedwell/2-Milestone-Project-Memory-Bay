@@ -7,12 +7,19 @@ body {
     display: flex;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 /*------------------------Home Page-------------------------*/
 .backgroundimage {
     background-image: url(assets/img/background.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
     
 .titlecenter {
@@ -73,17 +80,6 @@ body {
     width: 100%;
     height: auto;
 }
-/*------------------------Level buttons-------------------------*/
-.buttons {
-    text-align: center;
-    font-size: 0vw;
-    font-family: 'Questrial', sans-serif;
-    
-}
-
-.btn {
-    margin: 1vw;
-    }
 
 /*------------------------MEMORY GAME ------------------------- */
 .card-container {
@@ -123,7 +119,6 @@ body {
   }
 }
 
-
 .cards {
     width: calc(25% - 10px);
     height: calc(33.33% - 10px);
@@ -158,8 +153,10 @@ body {
     transform: rotateY(180deg);
 }
 
+/*------------------------REFRESH BUTTON------------------------- */
+
 .button {
-    height: 20vh;
+    height: 10vh;
     position: relative;
 }
 
@@ -170,4 +167,26 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-/*------------------------JS STYLING------------------------- */
+
+.btn-4{
+    border-radius: 50px;
+    border: 1px solid black;
+    color: black;
+    overflow: hidden;
+    background-color: rgba(150, 240, 243, 0.747);
+}
+
+.btn{
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s
+}
