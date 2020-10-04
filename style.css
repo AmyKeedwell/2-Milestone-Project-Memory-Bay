@@ -2,19 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-body {
+.home-body {
+    height: 100vh;
+    display: flex;
+}
+
+.game-body{
     height: 100%;
     display: flex;
 }
 
 /*------------------------Home Page-------------------------*/
 
-.backgroundimage{
+.backgroundimage-home{
     background-image: url(assets/img/background.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    height: 100%;
 }
     
 .titlecenter {
@@ -74,12 +81,14 @@ body {
     flex-direction: column;
 }
 
-.backgroundimage {
+.backgroundimage-game {
     background-image: url(assets/img/background.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
