@@ -74,4 +74,8 @@ var countdown = setInterval(function(){
      $("#myModal").modal();
 },1000);
 
+if(countdown === 0){
+    alert("You ran out of time! Try Again.");
+}
+
 
