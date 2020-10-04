@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 body {
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
@@ -16,20 +16,11 @@ body {
     background-size: cover;
     height: 100%;
 }
-
-/*.backgroundimage {
-    background-image: url(assets/img/background.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}*/
     
 .titlecenter {
     position: relative;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 30vh;
 }
 
 .title-homepage {
@@ -76,8 +67,6 @@ body {
     flex-direction: column;
     justify-content: center;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    margin-bottom: 3vh;
-    margin-top: 5vh;
 }
 
 .main-header {
@@ -90,13 +79,14 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    background-attachment: fixed;
 }
 
 
 .countdown {
     text-align: center;
     padding-bottom: 5vh;
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -135,6 +125,13 @@ body {
   .memory-bay {
     width: 340px;
     height: 340px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .memory-bay {
+    width: 240px;
+    height: 240px;
   }
 }
 
