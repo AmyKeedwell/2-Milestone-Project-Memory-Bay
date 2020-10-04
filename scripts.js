@@ -73,3 +73,5 @@ var countdown = setInterval(function(){
     if (seconds <= 0) clearInterval(countdown);
      $("#myModal").modal();
 },1000);
+
+

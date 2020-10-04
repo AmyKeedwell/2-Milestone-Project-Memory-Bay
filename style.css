@@ -44,7 +44,11 @@ body {
     position: relative
 }
 
-.start-game {
+
+.game-button a {
+    text-decoration: none;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     width: 100vw;
     text-align: center;
     position: absolute;
@@ -52,13 +56,15 @@ body {
     font-size: 6vw;
 }
 
-.game-button a {
-    text-decoration: none;
-    color: black;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+.start-game {
+  animation: blinker 2s linear infinite;
 }
 
-
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 /*------------------------Memory Bay Title-------------------------*/
 .title {
