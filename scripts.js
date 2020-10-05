@@ -70,12 +70,11 @@ var countdown = setInterval(function(){
     seconds--;
     (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
     document.getElementById("countdown").textContent = seconds;
+    if (countdown === 0){
+    alert("You ran out of time! Try Again.");
+    }   
     if (seconds <= 0) clearInterval(countdown);
-     $("#myModal").modal();
 },1000);
 
-if(countdown === 0){
-    alert("You ran out of time! Try Again.");
-}
 
 
