@@ -79,12 +79,12 @@ var countdown = setInterval(function(){
     seconds--;
     (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
     document.getElementById("countdown").textContent = seconds;
-    if (gameOver === true){
-        $('#winModal').modal();
-        clearInterval(countdown);
-    }
     if (seconds === 0){
         $('#myModal').modal();
+        clearInterval(countdown);
+    };
+    if (gameOver === true){
+        $('#winModal').modal();
         clearInterval(countdown);
     };
     if (seconds <= 0) clearInterval(countdown);
