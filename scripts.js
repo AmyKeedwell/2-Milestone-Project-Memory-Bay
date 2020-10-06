@@ -1,5 +1,8 @@
 const cards = document.querySelectorAll('.cards');
 
+let matchCount = 0;
+let gameOver = false;
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -31,7 +34,13 @@ function checkForMatch(){
 function disableCards(){
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
-
+    matchCount++;
+    if (matchCount === 6){
+        setTimeout(() => {
+            gameOver = true;
+        }, 1000);
+    }
+    
     resetBoard();
 }
 
@@ -70,6 +79,10 @@ var countdown = setInterval(function(){
     seconds--;
     (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
     document.getElementById("countdown").textContent = seconds;
+    if (gameOver === true){
+        $('#winModal').modal();
+        clearInterval(countdown);
+    }
     if (seconds === 0){
         $('#myModal').modal();
         clearInterval(countdown);

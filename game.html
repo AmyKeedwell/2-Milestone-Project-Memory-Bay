@@ -11,6 +11,7 @@
 
 <body class="game-body">
 <div class="backgroundimage-game">
+
     <div class="flex">
         <div class="main-header">
             <div class="title"> Memory Bay</div>
@@ -18,7 +19,7 @@
         <div class="countdown">
             <span id="countdown">30</span> second<span id="plural">s</span>
         </div>
-
+        
         <div class="card-container">
             <div class="memory-bay">
                 <div class="cards" data-name="beachball">
@@ -90,6 +91,24 @@
       <!-- Modal body -->
       <div class="modal-body">
         You ran out of time! Play again?
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal" id="closeBtn">Play Again?</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="winModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h2>You Win!</h2>
       </div>
 
       <!-- Modal footer -->
