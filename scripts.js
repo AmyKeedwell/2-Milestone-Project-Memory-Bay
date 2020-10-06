@@ -93,3 +93,7 @@ var countdown = setInterval(function(){
 $('#closeBtn').click(function(){
     location.reload();
 });
+
+$('#closeBtn2').click(function(){
+    location.reload();
+});
