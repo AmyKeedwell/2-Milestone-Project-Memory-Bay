@@ -30,6 +30,12 @@
     padding-top: 30vh;
 }
 
+@media only screen and (max-width: 1000px) {
+  .titlecenter {
+    padding-top: 40vh;
+  }
+}
+
 .title-homepage {
     font-family: 'sarina', cursive;
     font-size: 10vw;
@@ -117,19 +123,19 @@
 
 @media only screen and (min-width: 1000px) {
   .flex {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .flex {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .flex {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 }
 
