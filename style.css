@@ -69,8 +69,15 @@
     opacity: 0;
   }
 }
+/*------------------------BACK BUTTON------------------------*/
 
-/*------------------------Memory Bay Title-------------------------*/
+.back-button{
+    font-size: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------------------------MEMORY BAY TITLE-------------------------*/
 .title {
     font-family: 'sarina', cursive;
     text-align: center;
@@ -96,14 +103,7 @@
     background-size: cover;
 }
 
-
-.countdown {
-    text-align: center;
-    font-size: 2.5vh;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #E8E7E7;
-    display: inline-block;
-}
+/*------------------------GAME BAR-------------------------*/
 
 #boxes {
     background-color: #E8E7E7;
@@ -111,6 +111,7 @@
     margin: auto;
     width: 630px;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -127,28 +128,32 @@
 
 .box {
    width: 200px;
-    height: 50px;
+    height: 45px;
     display: inline-block;
 }
-
-/*------------------------REFRESH BUTTON------------------------- */
 
 .button {
     display: inline-block;
 }
 
-.start {
-font-size: 20px;
+.countdown {
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8E7E7;
+    display: inline-block;
 }
 
-.play-again{
+.play-again, .start{
     font-family: 'Open Sans', sans-serif;
     color: black;
     overflow: hidden;
-    background-color: #E8E7E7;
+    background-color: rgb(184, 179, 179);
     width: 200px;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
 
@@ -169,11 +174,7 @@ font-size: 20px;
     perspective: 1000px;
 }
 
-@media only screen and (min-width: 1000px) {
-  .flex {
-    margin-top: 5%;
-  }
-}
+
 
 @media only screen and (max-width: 700px) {
   .flex {

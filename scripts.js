@@ -2,7 +2,6 @@ const cards = document.querySelectorAll('.cards');
 
 let matchCount = 0;
 let gameOver = false;
-
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
