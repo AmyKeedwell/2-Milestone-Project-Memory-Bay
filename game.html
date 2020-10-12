@@ -16,10 +16,18 @@
         <div class="main-header">
             <div class="title"> Memory Bay</div>
         </div>
-        <div class="countdown">
-            <span id="countdown">30</span> second<span id="plural">s</span>
+        <div id="boxes">
+        <div class="button box">
+                <button type="submit" class="start box"> Start Game!</button>
+            </div>
+            <div class="countdown box">
+                <span id="countdown">30</span> second<span id="plural">s</span>
+            </div>
+            <div class="button box">
+                <button type="submit" onclick="refreshPage()" class="play-again"> Play Again? <i class="fa fa-refresh" aria-hidden="true"></i></button>
+            </div>
         </div>
-        
+
         <div class="card-container">
             <div class="memory-bay">
                 <div class="cards" data-name="beachball">
@@ -72,9 +80,6 @@
                 </div> 
             </div>
         </div>
-            <div class="button">
-                <button type="submit" onclick="refreshPage()" class="play-again bt btn-4 btn-4b"> Play Again? <i class="fa fa-refresh" aria-hidden="true"></i></button>
-            </div>
     </div>
 </div>
 

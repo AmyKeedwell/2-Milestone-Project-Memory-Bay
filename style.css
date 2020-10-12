@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .home-body {
     height: 100vh;
@@ -74,7 +74,7 @@
 .title {
     font-family: 'sarina', cursive;
     text-align: center;
-    font-size: 10vw;
+    font-size: 6vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -99,10 +99,58 @@
 
 .countdown {
     text-align: center;
-    padding-bottom: 5vh;
     font-size: 2.5vh;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8E7E7;
+    display: inline-block;
 }
+
+#boxes {
+    background-color: #E8E7E7;
+    display: block;
+    margin: auto;
+    width: 630px;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 700px) {
+  #boxes {
+    width: 520px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #boxes {
+    width: 400px;
+  }
+}
+
+.box {
+   width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+
+/*------------------------REFRESH BUTTON------------------------- */
+
+.button {
+    display: inline-block;
+}
+
+.start {
+font-size: 20px;
+}
+
+.play-again{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    overflow: hidden;
+    background-color: #E8E7E7;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
 
 /*------------------------MEMORY GAME ------------------------- */
 .card-container {
@@ -210,46 +258,7 @@
     transform: rotateY(180deg);
 }
 
-/*------------------------REFRESH BUTTON------------------------- */
 
-.button {
-    height: 10vh;
-    position: relative;
-}
-
-.play-again{
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: 'Kaushan Script', cursive;
-}
-
-.btn-4{
-    border-radius: 50px;
-    border: 1px solid black;
-    color: black;
-    overflow: hidden;
-    background-color: rgba(150, 240, 243, 0.747);
-    width: 150px;
-    font-size: 20px;
-}
-
-.btn{
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    margin: 15px 30px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s
-}
 
 /*------------------------PLAY AGAIN MODAL------------------------- */
 
