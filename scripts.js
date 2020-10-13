@@ -5,9 +5,10 @@ let gameOver = false;
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let gameStart = false;
 
 function flipCard() {
-    if (lockBoard) return;
+    if (lockBoard == true || gameStart == false) return;
     if (this === firstCard) return;
 
    this.classList.toggle('flip');
@@ -73,21 +74,7 @@ function refreshPage() {
   window.location.reload();
 }
 
-var seconds = document.getElementById("countdown").textContent;
-var countdown = setInterval(function(){
-    seconds--;
-    (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
-    document.getElementById("countdown").textContent = seconds;
-    if (seconds === 0){
-        $('#myModal').modal();
-        clearInterval(countdown);
-    };
-    if (gameOver === true){
-        $('#winModal').modal();
-        clearInterval(countdown);
-    };
-    if (seconds <= 0) clearInterval(countdown);
-},1000);
+
 
 $('#closeBtn').click(function(){
     location.reload();
@@ -95,4 +82,23 @@ $('#closeBtn').click(function(){
 
 $('#closeBtn2').click(function(){
     location.reload();
+});
+
+$('.start').click(function() {
+    gameStart = true;
+    var seconds = document.getElementById("countdown").textContent;
+    var countdown = setInterval(function(){
+        seconds--;
+        (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
+        document.getElementById("countdown").textContent = seconds;
+        if (seconds === 0){
+            $('#myModal').modal();
+            clearInterval(countdown);
+        };
+        if (gameOver === true){
+            $('#winModal').modal();
+            clearInterval(countdown);
+        };
+        if (seconds <= 0) clearInterval(countdown);
+    },1000);
 });
