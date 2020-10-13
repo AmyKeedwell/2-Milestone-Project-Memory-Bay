@@ -60,6 +60,7 @@ function resetBoard(){
     [firstCard, secondCard] = [null, null];
 }
 
+/*-------------------Shuffle Cards-------------------*/
 
 (function shuffle(){
     cards.forEach(card =>{
@@ -74,7 +75,7 @@ function refreshPage() {
   window.location.reload();
 }
 
-
+/*-------------------Refresh Page Buttons-------------------*/
 
 $('#closeBtn').click(function(){
     location.reload();
@@ -83,6 +84,8 @@ $('#closeBtn').click(function(){
 $('#closeBtn2').click(function(){
     location.reload();
 });
+
+/*-------------------Start Game / Timer--------------------*/
 
 $('.start').click(function() {
     gameStart = true;
@@ -102,3 +105,16 @@ $('.start').click(function() {
         if (seconds <= 0) clearInterval(countdown);
     },1000);
 });
+
+
+
+/*function addClass() {
+    if ($(window).width() < 700 ) {
+        $('.box').addClass('mx-auto');
+    } else {
+        $('.box').removeClass('mx-auto');
+    }
+}
+
+$(document).ready(addClass());
+$(window).resize(addClass());*/

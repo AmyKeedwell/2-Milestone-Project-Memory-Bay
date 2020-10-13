@@ -72,7 +72,7 @@
 /*------------------------BACK BUTTON------------------------*/
 
 .back-button{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -106,18 +106,15 @@
 /*------------------------GAME BAR-------------------------*/
 
 #boxes {
-    background-color: #E8E7E7;
-    display: block;
     margin: auto;
-    width: 630px;
-    border: 1px solid black;
+    width: 250px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
 @media only screen and (max-width: 700px) {
   #boxes {
-    width: 520px;
+    width: 250px;
   }
 }
 
@@ -128,20 +125,14 @@
 }
 
 .box {
-   width: 200px;
+    width: 200px;
     height: 45px;
-}
-
-.button {
-    display: inline-block;
 }
 
 .countdown {
     text-align: center;
     font-size: 2.5vh;
     font-family: 'Open Sans', sans-serif;
-    background-color: #E8E7E7;
-    display: inline-block;
 }
 
 .play-again, .start{
