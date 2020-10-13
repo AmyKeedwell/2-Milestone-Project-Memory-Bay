@@ -107,7 +107,6 @@
 
 #boxes {
     margin: auto;
-    width: 250px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -120,7 +119,7 @@
 
 @media only screen and (max-width: 600px) {
   #boxes {
-    width: 400px;
+    width: 250px;
   }
 }
 
@@ -142,10 +141,18 @@
     background-color: rgb(184, 179, 179);
     width: 200px;
     height: 40px;
-    font-size: 20px;
+    font-size: 2vh;
     border-radius: 5px;
     vertical-align: middle;
 }
+
+/*@media only screen and (max-width: 600px) {
+  .play-again, .start {
+    width: 150px;
+    height: 30px;
+    font-size: 1vh;
+  }
+}*/
 
 
 /*------------------------MEMORY GAME ------------------------- */
