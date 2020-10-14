@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 .home-body {
     height: 100vh;
@@ -73,15 +73,20 @@
 
 .back-button{
     font-size: 30px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px white solid;
+    margin-left: 4px;
+    border-radius: 5px;
+    background-color: rgba(184, 179, 179, 0.842);
+    padding: 0 3px 0 3px;
 }
 
 /*------------------------MEMORY BAY TITLE-------------------------*/
 .title {
     font-family: 'sarina', cursive;
     text-align: center;
-    font-size: 6vw;
+    font-size: 8vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -131,14 +136,15 @@
 .countdown {
     text-align: center;
     font-size: 2.5vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
 .play-again, .start{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     overflow: hidden;
-    background-color: rgb(184, 179, 179);
+    background-color: rgba(184, 179, 179, 0.63);
     width: 200px;
     height: 40px;
     font-size: 2vh;
@@ -172,27 +178,16 @@
     perspective: 1000px;
 }
 
-
-
-@media only screen and (max-width: 700px) {
-  .flex {
-    margin-top: 10%;
-  }
+.flex {
+    margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  .flex {
-    margin-top: 20%;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   .flex {
-    margin-top: 30%;
+    margin-top: 15%;
   }
 }
-
-
 
 
 @media only screen and (max-width: 700px) {
@@ -204,22 +199,29 @@
 
 @media only screen and (max-width: 600px) {
   .memory-bay {
-    width: 440px;
-    height: 440px;
+    width: 500px;
+    height: 500px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .memory-bay {
-    width: 340px;
-    height: 340px;
+    width: 400px;
+    height: 400px;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .memory-bay {
-    width: 260px;
-    height: 260px;
+    width: 325px;
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .memory-bay {
+    width: 275px;
+    height: 275px;
   }
 }
 
