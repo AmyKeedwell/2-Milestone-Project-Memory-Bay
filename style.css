@@ -151,6 +151,10 @@
     vertical-align: middle;
 }
 
+.start a {
+    animation: blinker 2s linear infinite;
+}
+
 /*------------------------MEMORY GAME ------------------------- */
 .card-container {
     height: 100%;
