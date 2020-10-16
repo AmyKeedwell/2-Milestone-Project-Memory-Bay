@@ -19,39 +19,50 @@ This game is designed to be a relaxing game aimed at all age groups.
 # Technologies Used
 
 This project makes use of:
-
-* HTML
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     * HTML for structure.
-* CSS
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
     * CSS for Styling.
-* Google Chrome
+* [Google Chrome](https://www.google.com/chrome/)
     * Used for browser and dev tools.
-* Google
+* [Google](https://www.google.co.uk/)
     * Google was used for research.
-* Google Fonts
+* [Google Fonts](https://fonts.google.com/)
     * Used for typogrphy
-* Bootstrap
+* [Bootstrap](https://getbootstrap.com/)
     * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap.
-* Font Awesome
+* [Font Awesome](https://fontawesome.com/)
     * Used to add icons throughout the page.
-* Figma
+* [Figma](https://www.figma.com/)
     * Used to make my final wireframe.
-* Git
+* [Git](https://git-scm.com/)
     * Git used for Version Control.
-* GitHub
+* [GitHub](https://github.com/)
     * Repository hosted on GitHub.
-* Github Pages
+* [Github Pages](https://amykeedwell.github.io/Milestone-Project-Resume/)
     * Website hosted on Github Pages.
-* Am I Responsive
+* [Am I Responsive](http://ami.responsivedesign.is/)
     * Testing responsiveness of the website.
-* HTML Validator
+* [HTML Validator](https://validator.w3.org/)
     * Validated HTML code by direct input to check for any errors.
-* CSS Validator
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
     * Validated CSS code by direct input to check for any errors.
-* HTML Formatter
+* [HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
     * Checked that HTML code is formatted and indented correctly.
 
 # Testing
+* Tested responsiveness using google dev tools. I tested the following types:
+
+    * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
+    * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
+    * iPhone 6/7/8 (portrait: 375x667 & landscape: 667x375)
+    * iPhone X (portrait: 375x812 & landscape: 812x375)
+    * Pixel 2 (portrait: 411x731 & landscape: 731x411)
+    * Pixel 2 XL (portrait: 411x823 & landscape: 823x411)
+    * iPhone 6/7/8 Plus (portrait: 414x736 & landscape: 736x414)
+    * iPad (portrait: 768x1024 & landscape: 1024x768)
+    * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+
 
 # Deployment
 The project is hosted on GitHub Pages
