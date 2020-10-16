@@ -29,6 +29,10 @@ I created an initial mockup of my game using Figma
 
 * I decided to go for a two page format, with a Home Page with a Start Game button to take the user to main Game Page.
 
+![homepage](assets/README.images/homepage.PNG)![gamepage](assets/README.images/gamepage.PNG)
+
+The design of the page, I kept very simple so it would not distract for the game itself. 
+
 # Features
 
 * **HomePage** 
@@ -38,7 +42,7 @@ I created an initial mockup of my game using Figma
     * for ease of navigation, I added a back button for the user to be able to easily navigate back to the Home Page if required.
 
 * **Title** 
-    * I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me Baywatch vibes!
+    * I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me beachy vibes!
 
 * **Start Game Button** 
     * I decided to add a button which needs to be clicked in order to unlock the game board and begin the game, this also starts the timer countdown (I did initially have the timer starting on page refresh but found this was not very user friendly!)
