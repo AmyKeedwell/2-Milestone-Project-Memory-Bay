@@ -37,13 +37,17 @@ I created an initial mockup of my game using Figma
 
 * **Title** I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me Baywatch vibes!
 
-* **Start Game Button** 
+* **Start Game Button** I decided to add a button which needs to be clicked in order to unlock the game board and begin the game, this also starts the timer countdown (I did initially have the timer starting on page refresh but found this was not very user friendly!)
 
-* **Timer**
+* **Timer** I added a 30 second timer to give the game the element of challenge. 
 
 * **Play Again Button** 
 
 * **The Game** 
+
+* **You Win!**
+
+* **Out of Time!**
 
 # Technologies Used
 
@@ -95,8 +99,7 @@ This project makes use of:
 * **Peer Code Review** Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism. 
     * Added styling to make the text in my Start Game button flash to make it more prominant as advised did't stand out enough and players tried to start playing the game while the gameboard was still locked.
     
-    * iOS user flagged a display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card. This can be seen below:
-    ![Bug](assets/README.images/Bug.PNG)
+    * iOS user flagged a display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card.
 
 
 * **Code Validators** to ensure my code is written in the correct format and there are no errors.
@@ -109,6 +112,9 @@ This project makes use of:
     ![CSS-Validation](assets/README.images/CSSValidator.PNG)
 
 ## Known Bugs 
+ During testing I found that all iOS users encourtered the same display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card. This can be seen below:
+
+![Bug](assets/README.images/Bug.PNG)
 
 
 # Deployment
