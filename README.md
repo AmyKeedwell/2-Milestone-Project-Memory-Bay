@@ -1,39 +1,118 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project Two - Memory Bay
 
-Welcome AmyKeedwell,
+For my second project to display my skills in JavaScript I have created a memory card game with a theme reflecting my favourite place to be this year, the beach.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+I have used a mix of HTML, CSS and JavaScript to create this interactive game. 
 
-## Gitpod Reminders
+[Click here to view My Project](https://amykeedwell.github.io/2-Milestone-Project-Memory-Bay/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[Click here to view my Repository](https://github.com/AmyKeedwell/2-Milestone-Project-Memory-Bay)
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: *Make Public*,
+![AmIResponsive](assets/README.images/AmIResponsive.PNG)
 
-Another blue button should appear to click: *Open Browser*.
+This game is designed to be a relaxing game aimed at all age groups. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Features
 
-A blue button should appear to click: *Make Public*,
+# Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+This project makes use of:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+* HTML
+    * HTML for structure.
+* CSS
+    * CSS for Styling.
+* Google Chrome
+    * Used for browser and dev tools.
+* Google
+    * Google was used for research.
+* Google Fonts
+    * Used for typogrphy
+* Bootstrap
+    * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap.
+* Font Awesome
+    * Used to add icons throughout the page.
+* Figma
+    * Used to make my final wireframe.
+* Git
+    * Git used for Version Control.
+* GitHub
+    * Repository hosted on GitHub.
+* Github Pages
+    * Website hosted on Github Pages.
+* Am I Responsive
+    * Testing responsiveness of the website.
+* HTML Validator
+    * Validated HTML code by direct input to check for any errors.
+* CSS Validator
+    * Validated CSS code by direct input to check for any errors.
+* HTML Formatter
+    * Checked that HTML code is formatted and indented correctly.
 
-## Updates Since The Instructional Video
+# Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+# Deployment
+The project is hosted on GitHub Pages
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The process involved:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Host a git repository on GitHub.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Create project in GitPod saving each big change for version control to GitHub.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Open your project repository in GitHub.
 
---------
+* Click on settings.
 
-Happy coding!
+* Scroll down to the GitHub Pages section.
+
+* Click on source and select master branch.
+
+* After the page refreshes you will have a link to your deployed website.
+
+* Final product now hosted on GitHub Pages.
+
+To deploy your own version of the website:
+
+* Have git installed
+
+* Visit the repository
+
+* Click 'Clone or download' and copy the code for http
+
+* Open your chosen IDE (Cloud9, VS Code, etc.)
+
+* Open a terminal in your root directory
+
+* Type 'git clone ' followed by the code taken from github repository
+
+* When this completes you have your own version of the website
+
+* Feel free to make any changes to it
+
+* The website can be run by opening one of the HTML files within a web browser
+
+* Visit the link provided
+
+* Your website with any made changes will appear
+
+* Saved changes to the website will appear here after refreshing the page
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
+
+During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
+
+# Credits 
+
+## Content
+
+To help me create the memory game javascript itself, I watched this tutorial by 'freeCodeCamp.org' and used the tips while changing it to fit my own code and needs for the game https://www.youtube.com/watch?v=ZniVgo8U7ek
+
+To create my timer function I took inspiration from the code found at 'https://tonnygaric.com/blog/create-a-seconds-countdown-in-6-lines-of-javascript'
+## Acknowledgements
+
+I would like to acknowledge all the help of the Code Institute Tutors who helped me overcome technical issues and make my vision come to life. 
