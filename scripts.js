@@ -105,16 +105,3 @@ $('.start').click(function() {
         if (seconds <= 0) clearInterval(countdown);
     },1000);
 });
-
-
-
-/*function addClass() {
-    if ($(window).width() < 700 ) {
-        $('.box').addClass('mx-auto');
-    } else {
-        $('.box').removeClass('mx-auto');
-    }
-}
-
-$(document).ready(addClass());
-$(window).resize(addClass());*/

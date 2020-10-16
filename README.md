@@ -63,6 +63,14 @@ This project makes use of:
     * iPad (portrait: 768x1024 & landscape: 1024x768)
     * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
 
+* Code Validators to ensure my code is written in the correct format and there are no errors.
+    * [HTML Validator](https://validator.w3.org/) 
+
+    ![HTML-Validation](assets/README.images/HTMLValidator.PNG)
+
+    * [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    ![CSS-Validation](assets/README.images/CSSValidator.PNG)
 
 # Deployment
 The project is hosted on GitHub Pages
