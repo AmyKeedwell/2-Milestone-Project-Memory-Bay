@@ -1,6 +1,6 @@
 # Milestone Project Two - Memory Bay
 
-For my second project to display my skills in JavaScript I have created a memory card game with a theme reflecting my favourite place to be this year, the beach.
+For my second project to display my skills in JavaScript I have created a memory card matching game with a theme reflecting my favourite place to be this year, the beach.The game is designed to test your memory, the game has a 30 second timer to complete the game to add the edge of a challenge!
 
 I have used a mix of HTML, CSS and JavaScript to create this interactive game. 
 
@@ -31,19 +31,26 @@ I created an initial mockup of my game using Figma
 
 # Features
 
-* **HomePage** containing the name of my memory game with the background image which is consistant throughout and a flashing 'Start Game' button to grab attention for the user to click and begin the game
+* **HomePage** 
+    * containing the name of my memory game with the background image which is consistant throughout and a flashing 'Start Game' button to grab attention for the user to click and begin the game
 
-* **Back Button** for ease of navigation, I added a back button for the user to be able to easily navigate back to the Home Page if required.
+* **Back Button** 
+    * for ease of navigation, I added a back button for the user to be able to easily navigate back to the Home Page if required.
 
-* **Title** I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me Baywatch vibes!
+* **Title** 
+    * I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me Baywatch vibes!
 
-* **Start Game Button** I decided to add a button which needs to be clicked in order to unlock the game board and begin the game, this also starts the timer countdown (I did initially have the timer starting on page refresh but found this was not very user friendly!)
+* **Start Game Button** 
+    * I decided to add a button which needs to be clicked in order to unlock the game board and begin the game, this also starts the timer countdown (I did initially have the timer starting on page refresh but found this was not very user friendly!)
 
-* **Timer** I added a 30 second timer to give the game the element of challenge. 
+* **Timer** 
+    * I added a 30 second timer to give the game the element of challenge. 
 
 * **Play Again Button** 
+    * The play again button is functional to refresh the whole page enabling the user to click Start Game and play again and again with ease!
 
 * **The Game** 
+    * The game is a memory card matching game made of 12 game cards with beach themed images
 
 * **You Win!**
 
@@ -174,7 +181,7 @@ During development the site is written in VS Code. It is run using Live Server p
 
 ## Content
 
-To help me create the memory game javascript itself, I watched this tutorial by 'freeCodeCamp.org' and used the tips while changing it to fit my own code and needs for the game https://www.youtube.com/watch?v=ZniVgo8U7ek
+To help me create the memory game javascript itself, I watched this tutorial by 'freeCodeCamp.org' and used the tips while changing the code to fit my own code and needs for the game https://www.youtube.com/watch?v=ZniVgo8U7ek
 
 To create my timer function I took inspiration from the code found at 'https://tonnygaric.com/blog/create-a-seconds-countdown-in-6-lines-of-javascript'
 ## Acknowledgements
