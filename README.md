@@ -44,7 +44,7 @@ I created an initial mockup of my game using Figma
     * I decided to add a button which needs to be clicked in order to unlock the game board and begin the game, this also starts the timer countdown (I did initially have the timer starting on page refresh but found this was not very user friendly!)
 
 * **Timer** 
-    * I added a 30 second timer to give the game the element of challenge. 
+    * I added a 30 second timer to give the game the element of challenge. The user will recieve different pop up's displayed on screen. If they fail to match all the cards within the allocated time, they will get the 'Out of Time' modal. If they do match all cards within the allocated time, they will get the 'You Win!' modal.
 
 * **Play Again Button** 
     * The play again button is functional to refresh the whole page enabling the user to click Start Game and play again and again with ease!
@@ -53,8 +53,10 @@ I created an initial mockup of my game using Figma
     * The game is a memory card matching game made of 12 game cards with beach themed images
 
 * **You Win!**
+    * I created a modal which pops up when all cards are matched in under 30 seconds, it pop's up with the message 'You Win' and a button to click to play again which will refresh the page.
 
 * **Out of Time!**
+    * If the 30 second timer runs to 0 before the player has successfully matched all of the cards, they will get a pop up with the message 'Out of Time', 'You ran out of time, Play Again?' this modal also has a button for the user to click to refresh the page and try again to win the game!
 
 # Technologies Used
 
@@ -106,7 +108,7 @@ This project makes use of:
 * **Peer Code Review** Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism. 
     * Added styling to make the text in my Start Game button flash to make it more prominant as advised did't stand out enough and players tried to start playing the game while the gameboard was still locked.
     
-    * iOS user flagged a display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card.
+    * iOS user flagged a display glitch where the front-face cards do not show when the user clicks a card to flip. Instead it momentarily displays the image then flips to the inverted back face card.
 
 
 * **Code Validators** to ensure my code is written in the correct format and there are no errors.
@@ -119,7 +121,7 @@ This project makes use of:
     ![CSS-Validation](assets/README.images/CSSValidator.PNG)
 
 ## Known Bugs 
- During testing I found that all iOS users encourtered the same display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card. This can be seen below:
+ During testing I found that all iOS users encourtered a display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card. This can be seen below:
 
 ![Bug](assets/README.images/Bug.PNG)
 
