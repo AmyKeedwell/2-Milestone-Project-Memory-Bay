@@ -14,7 +14,36 @@ I have used a mix of HTML, CSS and JavaScript to create this interactive game.
 
 This game is designed to be a relaxing game aimed at all age groups. 
 
+# User Stories
+
+# Mock Up
+I created an initial mockup of my game using Figma
+![FigmaMockup](assets/README.images/mockup.PNG)
+
+*My design has stayed the same as my intial creation, although there are a few aspects that I struggled to implement:*
+* *I initally wanted my game to be designed to have three different levels of difficulty: Easy, Medium and Hard with each level, increasing the number of cards to match at each level. I found that with the time I had to create my project, I would have struggled to code and style all different sizes so I decided to create a game with one level that I could concentrate on perfecting!*
+* *I wanted a type of score system initally, but instead opted for the game to be completed within a set time for the user to know if they have won the game!*
+* *I did want to add background music to the game, this was to reinforce the relxing beach theme of the game, although this would be a great feature I deemed it to not be significant enough to implement.*
+
+# Design
+
+* I decided to go for a two page format, with a Home Page with a Start Game button to take the user to main Game Page.
+
 # Features
+
+* **HomePage** containing the name of my memory game with the background image which is consistant throughout and a flashing 'Start Game' button to grab attention for the user to click and begin the game
+
+* **Back Button** for ease of navigation, I added a back button for the user to be able to easily navigate back to the Home Page if required.
+
+* **Title** I wanted my title to be very eye catching and chose a [google font](https://fonts.google.com/?query=sarina&preview.text=Memory%20Bay&preview.text_type=custom) called Sarina as it gave me Baywatch vibes!
+
+* **Start Game Button** 
+
+* **Timer**
+
+* **Play Again Button** 
+
+* **The Game** 
 
 # Technologies Used
 
@@ -28,7 +57,7 @@ This project makes use of:
 * [Google](https://www.google.co.uk/)
     * Google was used for research.
 * [Google Fonts](https://fonts.google.com/)
-    * Used for typogrphy
+    * Used for typogra phy
 * [Bootstrap](https://getbootstrap.com/)
     * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap.
 * [Font Awesome](https://fontawesome.com/)
@@ -62,6 +91,9 @@ This project makes use of:
     * iPhone 6/7/8 Plus (portrait: 414x736 & landscape: 736x414)
     * iPad (portrait: 768x1024 & landscape: 1024x768)
     * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+
+* Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
+    * Still awaiting any replies!
 
 * Code Validators to ensure my code is written in the correct format and there are no errors.
     * [HTML Validator](https://validator.w3.org/) 
