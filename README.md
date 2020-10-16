@@ -80,7 +80,7 @@ This project makes use of:
     * Checked that HTML code is formatted and indented correctly.
 
 # Testing
-* Tested responsiveness using google dev tools. I tested the following types:
+* **Responsive Design** Tested responsiveness using google dev tools. I tested the following types:
 
     * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
     * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
@@ -92,10 +92,14 @@ This project makes use of:
     * iPad (portrait: 768x1024 & landscape: 1024x768)
     * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
 
-* Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
-    * Still awaiting any replies!
+* **Peer Code Review** Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism. 
+    * Added styling to make the text in my Start Game button flash to make it more prominant as advised did't stand out enough and players tried to start playing the game while the gameboard was still locked.
+    
+    * iOS user flagged a display glitch where the front-face cards do not show when the user touches a card to flip. Instead it momentarily displays the image then flips to the inverted back face card. This can be seen below:
+    ![Bug](assets/README.images/Bug.PNG)
 
-* Code Validators to ensure my code is written in the correct format and there are no errors.
+
+* **Code Validators** to ensure my code is written in the correct format and there are no errors.
     * [HTML Validator](https://validator.w3.org/) 
 
     ![HTML-Validation](assets/README.images/HTMLValidator.PNG)
@@ -103,6 +107,9 @@ This project makes use of:
     * [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     ![CSS-Validation](assets/README.images/CSSValidator.PNG)
+
+## Known Bugs 
+
 
 # Deployment
 The project is hosted on GitHub Pages
