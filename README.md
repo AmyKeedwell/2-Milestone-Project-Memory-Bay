@@ -21,11 +21,16 @@ I created an initial mockup of my game using Figma
 *My design has stayed the same as my intial creation, although there are a few aspects that I struggled to implement:*
 * *I initally wanted my game to be designed to have three different levels of difficulty: Easy, Medium and Hard with each level, increasing the number of cards to match at each level. I found that with the time I had to create my project, I would have struggled to code and style all different sizes so I decided to create a game with one level that I could concentrate on perfecting!*
 * *I wanted a type of score system initally, but instead opted for the game to be completed within a set time for the user to know if they have won the game!*
-* *I did want to add background music to the game, this was to reinforce the relxing beach theme of the game, although this would be a great feature I deemed it to not be significant enough to implement.*
+* *I did want to add background music to the game, this was to reinforce the relxing beach theme of the game.*
 
 # User Stories
 
-* The game is easy for the user to navigate wit
+* A user who plays the game can easily navigate to the game page.
+
+* A user who plays the game can easly understand the functionality of the game is simple and easy to understand without the need for directions.
+
+* A user who plays the game can challenge themselves to complete the game in the fastest time.
+
 
 # Design
 
@@ -33,9 +38,17 @@ I created an initial mockup of my game using Figma
 
 ![homepage](assets/README.images/homepage.PNG)![gamepage](assets/README.images/gamepage.PNG)
 
-The design of the page, I kept very simple so it would not distract for the game itself. 
+* I opted for cursive google fonts as complimented the theme well, the main one being Sarina. 
 
-# Features
+![font](assets/README.images/font.PNG)
+
+* I decided to style the back face of my cards with a simple white background and the name of the game in my selected font to make it stand out from the background and look nice and clean. 
+
+* I styled my buttons as a light grey, slightly translucent to still show the background image while ensuring they stand out and are clear for the user. 
+
+* I style my cards to sit on the page in a 4 x 3 layout to help the game look balanced on both desktop and mobile devices. 
+
+# Features 
 
 * **HomePage** 
     * containing the name of my memory game with the background image which is consistant throughout and a flashing 'Start Game' button to grab attention for the user to click and begin the game
