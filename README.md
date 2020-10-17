@@ -127,15 +127,15 @@ This project makes use of:
 # Testing
 * **Responsive Design in Dev Tools** Tested responsiveness using google dev tools. I tested the following types:
 
-    * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
-    * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
-    * iPhone 6/7/8 (portrait: 375x667 & landscape: 667x375)
-    * iPhone X (portrait: 375x812 & landscape: 812x375)
-    * Pixel 2 (portrait: 411x731 & landscape: 731x411)
-    * Pixel 2 XL (portrait: 411x823 & landscape: 823x411)
-    * iPhone 6/7/8 Plus (portrait: 414x736 & landscape: 736x414)
-    * iPad (portrait: 768x1024 & landscape: 1024x768)
-    * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+    * iPhone 5/SE (320x568)
+    * Galaxy S5/Moto G4 (360x640)
+    * iPhone 6/7/8 (375x667)
+    * iPhone X (375x812)
+    * Pixel 2 (411x731)
+    * Pixel 2 XL (411x823)
+    * iPhone 6/7/8 Plus (414x736)
+    * iPad (768x1024)
+    * iPad Pro 1024x1366)
     
 * **Responsive Design Testing with Family and Friends** I sent my GitHub Pages link to family and friends to test and provide feedback.
     
