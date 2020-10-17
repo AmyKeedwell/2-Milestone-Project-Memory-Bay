@@ -4,6 +4,8 @@ For my second project to display my skills in JavaScript I have created a memory
 
 I have used a mix of HTML, CSS and JavaScript to create this interactive game. 
 
+My page is hosted on GitHub pages and respository on GitHub.
+
 [Click here to view My Project](https://amykeedwell.github.io/2-Milestone-Project-Memory-Bay/)
 
 [Click here to view my Repository](https://github.com/AmyKeedwell/2-Milestone-Project-Memory-Bay)
@@ -240,7 +242,7 @@ During development the site is written in VS Code. It is run using Live Server p
 
 ## Content
 
-To help me create the memory game javascript itself, I watched this tutorial by 'freeCodeCamp.org' and used the tips while changing the code to fit my own code and needs for the game https://www.youtube.com/watch?v=ZniVgo8U7ek
+To help me create the memory game javascript itself, I watched this tutorial by 'freeCodeCamp.org' and used the tips while changing the code to fit my own needs for the game https://www.youtube.com/watch?v=ZniVgo8U7ek
 
 To create my timer function I took inspiration from the code found at 'https://tonnygaric.com/blog/create-a-seconds-countdown-in-6-lines-of-javascript'
 ## Acknowledgements
