@@ -48,7 +48,6 @@
     position: relative
 }
 
-
 .game-button a {
     text-decoration: none;
     color: black;
@@ -69,6 +68,7 @@
     opacity: 0;
   }
 }
+
 /*------------------------BACK BUTTON------------------------*/
 
 .back-button{
@@ -83,6 +83,7 @@
 }
 
 /*------------------------MEMORY BAY TITLE-------------------------*/
+
 .title {
     font-family: 'sarina', cursive;
     text-align: center;
@@ -138,7 +139,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .play-again, .start{
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -156,6 +156,7 @@
 }
 
 /*------------------------MEMORY GAME ------------------------- */
+
 .card-container {
     height: 100%;
     display: flex;
@@ -176,13 +177,11 @@
     margin-bottom: 5px;
 }
 
-
 @media only screen and (max-width: 500px) {
   .flex {
     margin-top: 15%;
   }
 }
-
 
 @media only screen and (max-width: 700px) {
   .memory-bay {

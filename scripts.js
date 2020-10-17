@@ -7,6 +7,8 @@ let lockBoard = false;
 let firstCard, secondCard;
 let gameStart = false;
 
+/*-------------------Flip cards-------------------*/
+
 function flipCard() {
     if (lockBoard == true || gameStart == false) return;
     if (this === firstCard) return;
@@ -21,9 +23,10 @@ function flipCard() {
    } 
 
     secondCard = this;
-
        checkForMatch();
 }
+
+/*-------------------Check if cards match-------------------*/
 
 function checkForMatch(){
     let isMatch = firstCard.dataset.name === secondCard.dataset.name
@@ -44,6 +47,8 @@ function disableCards(){
     resetBoard();
 }
 
+/*-------------------Unmatched cards unflip-------------------*/
+
 function unflipCards(){
     lockBoard = true;
 
@@ -54,6 +59,8 @@ function unflipCards(){
         resetBoard();
     }, 1500);
 }
+
+/*-------------------Reset Board-------------------*/
 
 function resetBoard(){
     [hasFlippedCard, lockBoard] = [false, false];

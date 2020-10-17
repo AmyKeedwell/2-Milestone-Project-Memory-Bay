@@ -25,7 +25,7 @@ I created an initial mockup of my game using Figma
 
 # User Stories
 
-* The game
+* The game is easy for the user to navigate wit
 
 # Design
 
