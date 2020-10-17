@@ -12,9 +12,7 @@ I have used a mix of HTML, CSS and JavaScript to create this interactive game.
 
 ![AmIResponsive](assets/README.images/AmIResponsive.PNG)
 
-This game is designed to be a relaxing game aimed at all age groups. 
-
-# User Stories
+This game is designed to be a relaxing game aimed at all age groups. The premise is to complete the game by matching all of the cards within the time limit of 30 seconds. 
 
 # Mock Up
 I created an initial mockup of my game using Figma
@@ -24,6 +22,10 @@ I created an initial mockup of my game using Figma
 * *I initally wanted my game to be designed to have three different levels of difficulty: Easy, Medium and Hard with each level, increasing the number of cards to match at each level. I found that with the time I had to create my project, I would have struggled to code and style all different sizes so I decided to create a game with one level that I could concentrate on perfecting!*
 * *I wanted a type of score system initally, but instead opted for the game to be completed within a set time for the user to know if they have won the game!*
 * *I did want to add background music to the game, this was to reinforce the relxing beach theme of the game, although this would be a great feature I deemed it to not be significant enough to implement.*
+
+# User Stories
+
+* The game
 
 # Design
 
@@ -62,6 +64,13 @@ The design of the page, I kept very simple so it would not distract for the game
 * **Out of Time!**
     * If the 30 second timer runs to 0 before the player has successfully matched all of the cards, they will get a pop up with the message 'Out of Time', 'You ran out of time, Play Again?' this modal also has a button for the user to click to refresh the page and try again to win the game!
 
+## Futher features to implement
+* Different levels which scales from Easy (12 cards), Medium (16 cards), and Hard (24 cards).
+
+* Sound effects when two cards are matched. 
+
+* Soothing background music of waves with a button to toggle on and off. 
+
 # Technologies Used
 
 This project makes use of:
@@ -69,6 +78,10 @@ This project makes use of:
     * HTML for structure.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
     * CSS for Styling.
+* [JavaScript](https://www.javascript.com/)
+    * To add functionality to the game 
+* [JQuery](https://jquery.com/)
+    * Used to add functionality to my timer and buttons throughout the page
 * [Google Chrome](https://www.google.com/chrome/)
     * Used for browser and dev tools.
 * [Google](https://www.google.co.uk/)
@@ -97,7 +110,7 @@ This project makes use of:
     * Checked that HTML code is formatted and indented correctly.
 
 # Testing
-* **Responsive Design** Tested responsiveness using google dev tools. I tested the following types:
+* **Responsive Design in Dev Tools** Tested responsiveness using google dev tools. I tested the following types:
 
     * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
     * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
@@ -108,6 +121,32 @@ This project makes use of:
     * iPhone 6/7/8 Plus (portrait: 414x736 & landscape: 736x414)
     * iPad (portrait: 768x1024 & landscape: 1024x768)
     * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+    
+* **Responsive Design Testing with Family and Friends** I sent my GitHub Pages link to family and friends to test and provide feedback.
+    
+    * Samsung S9 - Sent myself my GitHub Pages link and checked functionality, I found no problems playing on andriod, game and all links functional and displayed on a single non-scrolling page. (I did find when holding the phone sideways, it only displays one row of cards at a time, this was expected but does make the game unplayable in this format)
+
+    * Samsung S10 - same as the above.
+
+    * iPad -  Sent my family the link, they reported that the game did not function as expected, this is due to a known bug described in section below.
+
+    * Google Chrome - The game works flawlessly on google chrome as designed and tested in this browser.
+
+    * Internet Explorer - I found that the game does not function in IX. The start game button does not seem to function so the board remains locked meaning that the game cannot be played (I have been unable to reach a conclusion as to why this is and unfortunately not enough time to attemp to fix this!)
+
+* **Game Functionality** Thoroughly tested the dynamics of the game while building it to make sure all aspects work correctly.
+    
+    * Tested that the gameboard will remain locked until the user initiates the game by clicking the 'Start Game' button.
+    
+    * Tested that the timer will only start counting down once the 'Start Game' button is clicked.
+    
+    * Tested that the player can only click two cards at a time, the third card will react to the fact its clicked but will not flip around.
+    
+    * Tested that if the player fails to match all of the cards before the countdown ends, they recieve a pop-up saying 'You ran out of time' with an option to play again.
+    
+    * Tested that if a player succeeds in matching all cards before the countdown ends, they recieve a pop-up saying 'You Won' with an option to play again. 
+
+    * Tested that when the back button is pressed, it successfully takes the user back to the home page. 
 
 * **Peer Code Review** Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism. 
     * Added styling to make the text in my Start Game button flash to make it more prominant as advised did't stand out enough and players tried to start playing the game while the gameboard was still locked.
@@ -129,6 +168,7 @@ This project makes use of:
 
 ![Bug](assets/README.images/Bug.PNG)
 
+Also, Internet Explorer - I found that the game does not function in IX. The start game button does not seem to function so the board remains locked meaning that the game cannot be played (I have been unable to reach a conclusion as to why this is and unfortunately not enough time to attemp to fix this!)
 
 # Deployment
 The project is hosted on GitHub Pages
