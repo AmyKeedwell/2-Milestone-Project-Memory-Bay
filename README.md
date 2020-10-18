@@ -46,7 +46,9 @@ I created an initial mockup of my game using Figma. [Click here to view my Mocku
 
 * I decided to style the back face of my cards with a simple white background and the name of the game in my selected font to make it stand out from the background and look nice and clean. 
 
-* I styled my buttons as a light grey, slightly translucent to still show the background image while ensuring they stand out and are clear for the user. 
+* I styled my buttons with a background image of sand to go with the theme and ensure they stand out and are clear for the user. 
+
+* I styled my timer on a white background so it has definition to stand out from the two buttons but also be clear to see and read for the user. 
 
 * I style my cards to sit on the page in a 4 x 3 layout to help the game look balanced on both desktop and mobile devices. 
 
