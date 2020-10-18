@@ -17,7 +17,7 @@ My page is hosted on GitHub pages and respository on GitHub.
 This game is designed to be a relaxing game aimed at all age groups. The premise is to complete the game by matching all of the cards within the time limit of 30 seconds. 
 
 # Mock Up
-I created an initial mockup of my game using Figma
+I created an initial mockup of my game using Figma. [Click here to view my Mockup in Figma!](https://www.figma.com/file/UWZJR9k7hAG5ntSm6mMDq4/Untitled?node-id=0%3A1)
 ![FigmaMockup](assets/README.images/mockup.PNG)
 
 *My design has stayed the same as my intial creation, although there are a few aspects that I struggled to implement:*

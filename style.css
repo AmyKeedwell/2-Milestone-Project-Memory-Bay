@@ -72,14 +72,15 @@
 /*------------------------BACK BUTTON------------------------*/
 
 .back-button{
-    font-size: 30px;
+    font-size: 3vh;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    border: 1px white solid;
+    border: 1px black solid;
     margin-left: 4px;
     border-radius: 5px;
     background-color: rgba(184, 179, 179, 0.842);
     padding: 0 3px 0 3px;
+    background-image: url(assets/img/sand.jpg);
 }
 
 /*------------------------MEMORY BAY TITLE-------------------------*/
@@ -137,6 +138,9 @@
     text-align: center;
     font-size: 2.5vh;
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .play-again, .start{
@@ -149,6 +153,11 @@
     font-size: 2vh;
     border-radius: 5px;
     vertical-align: middle;
+    background-image: url(assets/img/sand.jpg);
+}
+
+.start {
+    color: blue;
 }
 
 .start a {
