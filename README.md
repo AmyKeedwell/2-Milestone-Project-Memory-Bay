@@ -23,7 +23,7 @@ I created an initial mockup of my game using Figma. [Click here to view my Mocku
 *My design has stayed the same as my intial creation, although there are a few aspects that I struggled to implement:*
 * *I initally wanted my game to be designed to have three different levels of difficulty: Easy, Medium and Hard with each level, increasing the number of cards to match at each level. I found that with the time I had to create my project, I would have struggled to code and style all different sizes so I decided to create a game with one level that I could concentrate on perfecting!*
 * *I wanted a type of score system initally, but instead opted for the game to be completed within a set time for the user to know if they have won the game!*
-* *I did want to add background music to the game, this was to reinforce the relxing beach theme of the game.*
+* *I did want to add background music to the game, this was to reinforce the relaxing beach theme of the game.*
 
 # User Stories
 
